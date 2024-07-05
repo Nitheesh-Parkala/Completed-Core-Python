@@ -8,7 +8,7 @@ b= int(input())
 print("Enter The value3")
 c= int(input())
 
-if(a>b):
+if(a>b and a>c ):
     print("a is greater")
 elif(b>c):
     print("b is greater")
