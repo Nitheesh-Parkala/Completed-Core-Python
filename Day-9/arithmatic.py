@@ -15,3 +15,5 @@ str5 = str1-str2 #Error
 str6 = str1/str2 #Error 
 
 #Note: (- & /) are unsupported operand in string.
+
+
