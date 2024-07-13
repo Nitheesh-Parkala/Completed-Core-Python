@@ -1,6 +1,6 @@
 #Actual and Formal Parameter
 class Demo:
-    def swap(self,x,y):
+    def swap(self,x,y): #Formal Parameter
         temp=x
         x= y
         y=temp
@@ -13,7 +13,7 @@ print("Before Swap")
 print(a)
 print(b)
 
-d.swap(a,b)
+d.swap(a,b) #Actual Parameter
 print("After Swap")
 print(a)
 print(b)

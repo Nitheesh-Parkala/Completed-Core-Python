@@ -1,5 +1,5 @@
 class Demo:
-    def add(self,x=11,y=22,z=33):
+    def add(self,x=11,y=22,z=33): #Passing Default value
         print(x)
         print(y)
         print(z)
