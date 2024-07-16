@@ -1,3 +1,4 @@
+#Higher Order Function means- If any function which expect the parameter to the other function is called HOF.
 def fun1():  #First Class Function.
     print("Invoked fun1")
 
@@ -9,6 +10,7 @@ def display(ptr1,ptr2):  #Higher Order Function
     print(ptr1)
     print(ptr2)
     ptr1()
+    ptr2(21,26)
    
 
 fun1()
