@@ -18,6 +18,7 @@ def fun2():
         print("Error in fun2")
         raise e
     print("Leaving fun2")
+    
 print("prg Started...")
 try:
     fun1()
