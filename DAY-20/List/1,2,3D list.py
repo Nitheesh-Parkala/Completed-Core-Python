@@ -4,8 +4,8 @@ print(a)
 print(len(a))
 
 print(a[2])  #1D
-print(a[1],[3]) #2D
-print(a[1],[2],[0]) #3D
+print(a[1][3]) #2D
+print(a[1][2][0]) #3D
 print(a[4])
-print(a[3],[3])
-print(a[3],[2],[1])
+print(a[3][3])
+print(a[3][2][1])

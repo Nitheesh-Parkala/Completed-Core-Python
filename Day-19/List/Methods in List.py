@@ -13,7 +13,7 @@ print(a.index(20))  #1
 a.clear()  
 print(a)  #[]
 
-del a
+# del a
 print(a)  #Error
 
 b=[10,20,10,30,10]
