@@ -1,4 +1,4 @@
-#Type1
+# Type 1: Function with no parameters and no return value
 def fun1():
     a=10
     b=20
@@ -6,7 +6,7 @@ def fun1():
     print(c)
 fun1()
 
-#Type2
+#Type 2: Function with no parameters but with a return value
 def fun2():
     a=10
     b=20
@@ -15,7 +15,7 @@ def fun2():
 r1=fun2()
 print(r1)
 
-#Type3
+#Type 3: Function with parameters and no return value
 def fun3(a,b):
     c=a*b
     print(c)
@@ -24,7 +24,7 @@ x=10
 y=20
 fun3(x,y)
 
-#Type4
+#Type 4 Function with parameters and a return value
 def fun4(a,b):
     c=a*b
     return c
