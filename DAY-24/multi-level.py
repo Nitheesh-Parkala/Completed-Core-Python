@@ -1,3 +1,4 @@
+#   A class is derived from a class that is also derived from another class.
 class A:
     def dispA(self):
         print("Inside A")

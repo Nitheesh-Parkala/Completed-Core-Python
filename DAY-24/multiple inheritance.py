@@ -1,3 +1,4 @@
+# A class inherits from more than one superclass.
 class A:
     def display(self):
         print("Inside A")

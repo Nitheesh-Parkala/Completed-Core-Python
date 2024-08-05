@@ -1,3 +1,4 @@
+# A class inherits from one superclass.
 class A:
     def dispA(self):
         print("Inside A")

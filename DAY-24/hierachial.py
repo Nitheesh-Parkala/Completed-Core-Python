@@ -1,3 +1,4 @@
+# Multiple classes inherit from a single superclass.
 class A:
     def disA(self):
         print("Inside A")

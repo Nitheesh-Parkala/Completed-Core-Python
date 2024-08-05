@@ -29,7 +29,7 @@ f.land()
 f.carryc()
 
 # Call methods on Cargo instance
-f.takeoff()
-f.fly()
-f.land()
-f.carryc()
+p.takeoff()
+p.fly()
+p.land()
+p.carryc()
