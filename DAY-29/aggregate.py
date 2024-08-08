@@ -9,18 +9,25 @@ class Charger:
 class Mobile:
     def __init__(self,name):
         self.mname=name
-        self.c1= Charger("xyz")
-        print("Mobile & Charger is connected")
-    def getMobile(self):
-        self.c1.getCharger()
+        self.c1= ""
         print("Mobile is ready..")
+        print("Mobile & Charger is connected")
+
+    def hasMobile(self,c):
+        self.c1=c
+        print("Mobile & Charger is connected")
 
 m=Mobile("iphone")
+charger=Charger("Iphone Charger")
+
+m.hasMobile(charger)
 print(m.mname)
 print(m.c1.cname)
-m.getMobile()
+m.c1.getCharger()
+
+print("====")
 
 del m
+print(charger.cname)
+charger.getCharger()
 
-# print(.mname)
-Charger.getCharger()
