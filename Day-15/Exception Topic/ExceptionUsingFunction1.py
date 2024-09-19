@@ -5,7 +5,7 @@ def fun1():
         fun2()
     except Exception as e:
         print("Error in fun1")
-    print("Leaving fu2")
+    print("Leaving fun1")
 
 def fun2():
     print("Entering in fun2")
